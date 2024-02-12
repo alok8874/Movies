@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.navbar{
+  display: flex;
+  width: 100vw;
+  background: #0E86D4;
+  padding: 1rem;
+}
+.banner-card{
+  height: 70vh;
+  width: 100vw;
+  position: relative;
+}
+.banner-img{
+  height: 70vh;
+  width: 100vw;
+}
+.banner-title{
+    margin-top: -2rem;
+    background-color: #313131;
+    height: 2rem;
+    color: white;
+}
+
+.film-list{
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  padding: 5rem;
+  justify-content: center;
+  margin: 0rem;
+  margin-top: -4rem;
+}
+.film-card{
+  width: 20rem;
+  height: 50vh;
+  margin: 0.7rem;
+}
+.film-img{
+  width: 100%;
+  height: 100%;
+}
+.film-btn{
+  position: absolute;
+  width: 50%;
+  bottom: 4rem;
+  left: 5rem;
+}
+.paginate{
+  display: flex;
+  justify-content: center;
+}
+
+.fav-generes{
+  margin: 3rem;
+}
+.search-sort{
+  margin-left: 5rem;
+}
+.fav-tab{
+  margin-left: 5rem;
+}
+.fav-nav{
+  margin-left: 30%;
+}
